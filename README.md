@@ -41,40 +41,41 @@ npm run ios
 # OR using Yarn
 yarn ios
 ```
+### Login 
+- Accepts email and password input
+- Validates input
+- Navigates to Home screen on submit
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+### Home
+- Carousel component with auto slide images
+- Horizontal scrollable cards
+- Card with image taking 80% height
+- Title and price in remaining 20% section
+- Bottom tab bar navigation
+- Home tab
+- Library tab
+- Account tab
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+### Library
+-Simple screen with Library title
 
-## Step 3: Modifying your App
+### Account
+- Simple screen with Account title
 
-Now that you have successfully run the app, let's modify it.
+### Navigation
+- React Navigation for routing and navigation
+- Stack navigator for login flow
+- Bottom tab navigator for main app navigation
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+### External Libraries
+- React Native Snap Carousel for carousel
+- React Native Gesture Handler for interactions
+- React Native Reanimated for animations
+- React Native Vector Icons for tab bar icons
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+### Running the app
+- npm install to install dependencies
+- npx react-native run-ios to run iOS simulator
+- npx react-native run-android to run Android emulator
 
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
-# Test_task
+This covers the core screens, navigation structure, styling and libraries used in the app. Additional features and integrations can be added as per requirements.
